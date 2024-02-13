@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="Interest.css">
+<title>Simple interest calculator</title>
+</head>
+<body>
+<div class="allContainer">
+	<div class="wrapper">
+		<div class="content">
+	<div>
+	<label>Principal($):</label>
+<input type="number" class="principal">
+	</div>
+	<div> 
+		<label>Rate:</label>
+<input type="number" class="rate">
+</div>
+	</div>
+<div class="time-wrap">
+	<label>Time:</label>
+<input type="number" class="Time">
+<select name="duration" id="duration">
+	<option value="year">Year</option>
+	<option value="month">Month</option>
+	<option value="week">Weeks</option>
+	<option value="day">Days</option>
+</select>
+ </div>
+<button class="calcBtn">Calculate</button>
+<div class="Answer"></div>
+</div>
+</div>
+
+<script src="Interest.js"></script>
+</body>
+</html>

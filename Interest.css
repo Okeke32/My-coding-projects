@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border box;
+font-family: Sans-Serif Times New Roman;
+}
+
+body{
+	min-height: 100vh;
+background: grey;
+}
+
+.allContainer{
+width: 100%;  
+height: 100vh;
+align-content: center;
+align-items: center;
+justify-content: center;
+display: flex;
+background: green;
+	
+}
+
+
+.wrapper{
+min-width: 200px;
+    background-color: gold;
+    position: relative;
+    border-radius: 10px 10px;
+}
+
+.content{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+margin: 20px 5px;
+border-radius: 50px;
+justify-content: center;
+align-items: center;
+padding: 50px;
+}
+
+label{
+	display: block;
+	text-align: center;
+font-size: 25px;
+}
+
+input{
+	outline: none;
+	background: transparent;
+	text-align: center;
+	height: 40px;
+}
+
+.time-wrap{
+	text-align: center;
+justify-content: center;
+border-radius: 20px;
+margin: 45px;
+}
+
+button{
+align-items: center;	
+justify-content: center;
+height: 70px;	
+width: 200px;
+margin-left: 170px;
+background: green;
+color: white;
+border-radius: 20px;
+font-size: 20px;
+}
+
+.Answer{
+	margin: 40px;
+background: green;
+justify-content: center;
+text-align: center;
+padding: 30px;
+border-radius: 20px;
+color: white;
+width: 400px;
+margin-left: 40px;
+margin-bottom: 80px;
+font-size: 25px;
+	
+}
+
+p{
+	padding: 10px;
+}
+
+
+select{
+	margin-left: 40px;
+height: 40px;
+width: 190px;	
+outline: none;
+background: transparent;
+text-align: center;
+}
