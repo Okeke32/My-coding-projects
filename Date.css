@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border box;
+}
+
+body{
+  background: white;
+}
+
+.hero{
+  min-height: 100vh;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  background: linear-gradient(blue, red, purple);
+  display: flex;
+  align-items: center;
+}
+
+.calendar{
+  width: 100px;
+  height: 250px;
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .right{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.right{
+  color: white;
+  background: purple;
+  width: 48%;
+  border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+
+.left{
+  width: 58%;
+}
+
+#date{
+  font-size: 100px;
+  line-height: 90px;
+  font-weight: 900;
+}
+
+#doAll{
+    padding: 20px;
+    font-size: 20px;
+}
